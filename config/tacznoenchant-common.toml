@@ -1,0 +1,11 @@
+# TaCZ No Enchant
+# This blocks normal enchanted-book application to TACZ guns in survival.
+# Warning: stripExistingEnchantments is irreversible. Use it only if you know what you're doing.
+
+# Remove enchantments from TACZ guns in a player's inventory when they join.
+# This is disabled by default.
+stripExistingEnchantments = false
+
+# Allow specific TACZ gun IDs to ignore the enchant restriction.
+# Example: allowedGunIds = ["tacz:modern_kinetic_gun"]
+allowedGunIds = []
